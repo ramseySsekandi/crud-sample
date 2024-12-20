@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { useState, } from 'react'
 import { CategoryForm } from "@/types"
-import { useForm, SubmitHandler } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { createCategories } from "@/actions/categories"
 import toast from "react-hot-toast"
 import { useRouter } from "next/navigation"

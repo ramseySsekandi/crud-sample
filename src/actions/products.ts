@@ -6,7 +6,7 @@ export const createProduct = async (data:ProductForm) => {
     // console.log(data)
     try {
         console.log(data)
-        let newProduct = await db.product.create({data})
+        const newProduct = await db.product.create({data})
         return newProduct
     } catch (error) {
         console.log(error)

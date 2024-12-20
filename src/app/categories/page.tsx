@@ -8,7 +8,6 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-import { CategoryForm } from "@/types"
 import Link from "next/link"
 
 
